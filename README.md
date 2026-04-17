@@ -62,6 +62,8 @@ Open:
 3. Render auto-detects `render.yaml`.
 4. Deploy.
 
+If build gets stuck while compiling `pandas`, ensure the service uses Python `3.11.9` (already pinned via `.python-version` and `render.yaml`).
+
 ## Deploy to Vercel
 
 1. Push this folder to GitHub.
